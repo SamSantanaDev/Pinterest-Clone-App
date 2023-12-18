@@ -65,7 +65,7 @@ import Footer from '../components/Footer';
       <input
         type="text"
         value={searchInput}
-        className="bg-transparent outline-none"
+        className="bg-transparent outline-none text-black font-serif"
         onChange={(e) => setSearchInput(e.target.value)}
         placeholder="Search"
       />

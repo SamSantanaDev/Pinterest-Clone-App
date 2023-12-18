@@ -34,7 +34,7 @@ function PinItem({pin}) {
         cursor-pointer relative z-0'
         />
        </div>
-        <h2 className='font-bold font-serif
+        <h2 className='font-bold text-black font-serif
         text-[18px] mb-1 mt-2 line-clamp-2'>{pin.title}</h2>
         <UserTag user={user} />
     </div>

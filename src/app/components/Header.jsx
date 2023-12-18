@@ -68,7 +68,7 @@ const onCreateClick=()=>{
           + New
         </button>
 
-        <h1 className=" md:visible font-serif ml-10 text-[40px] font-semibold">InspoNet</h1>
+        <h1 className=" md:visible font-serif ml-10 text-[40px] text-black font-semibold">InspoNet</h1>
       </div>
   
       <div>

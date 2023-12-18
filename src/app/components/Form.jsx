@@ -82,7 +82,7 @@ function Form() {
               type="text"
               placeholder="Add your title"
               onChange={(e)=>setTitle(e.target.value)}
-              className=" text-[35px] outline-none font-bold w-full border-b-[2px] border-gray-400"
+              className=" text-[35px] text-black outline-none font-bold w-full border-b-[2px] border-gray-400"
             />
             <h2 className=" text-[12px] w-full text-gray-400">
               40 characters max
@@ -93,7 +93,7 @@ function Form() {
               type="text"
               placeholder="Description"
               onChange={(e) => setDesc(e.target.value)}
-              className="outline-none w-full mt-8 pb-4 text-[14px] border-b-[2px] border-gray-400 placeholder-gray-400"
+              className="outline-none w-full mt-8 pb-4 text-black text-[14px] border-b-[2px] border-gray-400 placeholder-gray-400"
             />
             {/* <input
               type="text"

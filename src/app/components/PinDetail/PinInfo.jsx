@@ -9,9 +9,9 @@ function PinInfo({pinDetail}) {
   }
   return (
     <div>
-      <h2 className='text-[30px] font-serif font-bold mb-10'>{pinDetail.title}</h2>
+      <h2 className='text-[30px] font-serif text-black font-bold mb-10'>{pinDetail.title}</h2>
       <UserTag user={user} />
-      <h2 className='mt-20 font-serif text-[20px] '>{pinDetail.desc}</h2>
+      <h2 className='mt-20 font-serif text-black text-[20px] '>{pinDetail.desc}</h2>
     
     </div>
   )

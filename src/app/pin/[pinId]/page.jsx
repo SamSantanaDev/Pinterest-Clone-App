@@ -68,10 +68,10 @@ function PinDetail({ params }) {
           <h2 className="font-semibold text-[30px] font-serif mt-10">Leave a Comment</h2>
           {session?.data && <CommentForm postId={params.pinId} />}
           <div>
-            <h2 className="font-semibold text-[30px] mb-10 mt-10">Comments</h2>
+            <h2 className="font-semibold text-[30px] text-black  mb-10 mt-10">Comments</h2>
             <div className="space-y-4">
               {comments.map((comment) => (
-                <div key={comment.id} className=" p-3 rounded-lg">
+                <div key={comment.id} className=" p-3 text-black rounded-lg">
                   <div className="flex items-center space-x-3 mb-2">
                     {comment.userImage && (
                       <Image
@@ -82,9 +82,9 @@ function PinDetail({ params }) {
                         className="rounded-full"
                       />
                     )}
-                    <strong className="font-serif">{comment.userName}</strong>
+                    <strong className="font-serif text-black">{comment.userName}</strong>
                   </div>
-                  <p className="ml-10 ">{comment.text}</p>
+                  <p className="ml-10 text-black">{comment.text}</p>
                 </div>
               ))}
             </div>

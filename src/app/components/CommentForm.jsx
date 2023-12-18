@@ -64,7 +64,7 @@ function CommentForm({ postId }) {
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
                 placeholder="comment"
-                className=" font-serif outline-none w-full mt-8 pb-4 text-[14px] border-b-[2px] border-gray-400 placeholder-gray-400"
+                className=" font-serif text-black outline-none w-full mt-8 pb-4 text-[14px] border-b-[2px] border-gray-400 placeholder-gray-400"
             />
 
             <div className='justify-start w-50 h-50 p-4'>

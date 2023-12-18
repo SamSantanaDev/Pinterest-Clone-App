@@ -25,7 +25,7 @@ const UserInfo = ({ userInfo }) => {
 
       <h2
         className="text-[30px]
-      font-semibold"
+      font-semibold text-black"
       >
         {userInfo.userName}
       </h2>
